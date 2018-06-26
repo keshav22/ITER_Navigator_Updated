@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="navigator.iter.ourapp.blockapp.Signup"
+    android:background="@drawable/home">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+        android:id="@+id/fragpass">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/text32"
+        android:fontFamily="sans-serif"
+        android:text="FACULTY SIGN UP"
+        android:textColor="#ffffebc1"
+        android:textSize="40dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionNext"
+        android:ems="15"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:layout_below="@+id/text32"
+        android:layout_marginTop="60dp"
+        android:layout_centerInParent="true"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="#fff"
+        android:id="@+id/namesignup"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="number"
+        android:ems="15"
+        android:imeOptions="actionNext"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:layout_below="@+id/namesignup"
+        android:id="@+id/numbersignup"
+        android:layout_centerHorizontal="true"
+        android:hint="Mobile Number"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="text"
+        android:ems="15"
+        android:maxLength="4"
+        android:textColorHint="#fff"
+        android:layout_below="@+id/numbersignup"
+        android:id="@+id/roomsignup"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:hint="Room no"
+        android:imeOptions="actionNext"
+        android:layout_marginTop="20dp"
+        />
+    <AutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:ems="15"
+        android:inputType="text"
+        android:textColorHint="#fff"
+        android:layout_below="@+id/roomsignup"
+        android:id="@+id/designation"
+        android:imeOptions="actionNext"
+        android:completionThreshold="0"
+        android:layout_centerHorizontal="true"
+        android:hint="Designation"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        />
+    <AutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:ems="15"
+        android:completionThreshold="0"
+        android:inputType="text"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_below="@+id/designation"
+        android:id="@+id/emailsignup"
+        android:layout_centerHorizontal="true"
+        android:hint="Email"
+        android:imeOptions="actionNext"
+        android:layout_marginTop="20dp"/>
+
+
+        <EditText
+            android:id="@+id/passwden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:layout_below="@+id/emailsignup"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:textColorHint="#fff"
+            android:hint="Enter Password"
+            android:layout_marginTop="10dp"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:id="@+id/passwden1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwden"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:textColorHint="#fff"
+            android:fontFamily="casual"
+            android:textColor="#fff"
+
+            android:gravity="center"
+            android:hint="Re-enter password"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword" />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/otpsignup"
+            android:layout_centerHorizontal="true"
+            android:text="Submit"
+            android:id="@+id/btnsbm"
+            ></Button>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:ems="15"
+            android:hint="OTP"
+            android:id="@+id/otpsignup"
+            android:textColorHint="#fff"
+            android:gravity="center"
+            android:inputType="text"
+            android:layout_below="@+id/passwden1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:visibility="invisible"
+            />
+</RelativeLayout>
+</ScrollView>

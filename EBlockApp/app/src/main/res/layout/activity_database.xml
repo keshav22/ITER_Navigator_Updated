@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="navigator.iter.ourapp.blockapp.Database"
+    android:background="@drawable/home"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linear"
+        >
+    <include layout="@layout/navigation_action"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </include>
+    </LinearLayout>
+    <AutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/linear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#fff"
+        android:textColor="#fff"
+        android:imeOptions="actionDone"
+        android:completionThreshold="1"
+        android:inputType="textPersonName"
+        android:id="@+id/choose"
+        android:hint="Choose Name"
+        android:textColorHint="#fff"
+        android:gravity="center"
+        />
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:visibility="visible"
+    android:layout_marginTop="40dp"
+    android:layout_below="@+id/choose">
+    <EditText
+        android:text="Room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        android:textColor="#fffff4d8"
+        android:layout_marginTop="20dp"
+        android:id="@+id/roomNum1"
+
+        />
+    <EditText
+        android:text="Type : "
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/roomNum1"
+        android:textSize="20dp"
+        android:textColor="#fffff4d8"
+        android:layout_marginTop="10dp"
+        android:id="@+id/type1"
+
+        />
+
+    <EditText
+        android:text="Faculty : "
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/type1"
+        android:textColor="#fffff4d8"
+        android:layout_marginTop="10dp"
+        android:id="@+id/faculty1"
+
+        />
+    <EditText
+        android:text="Number:  "
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/faculty1"
+        android:textColor="#fffff4d8"
+        android:layout_marginTop="10dp"
+        android:id="@+id/number1"
+
+        />
+    <EditText
+        android:text="Email: "
+        android:textStyle="bold"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/number1"
+        android:textColor="#fffff4d8"
+        android:layout_marginTop="10dp"
+        android:id="@+id/email1"
+        android:textIsSelectable="true"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email1"
+        >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MODIFY"
+        android:onClick="modify1"
+        android:id="@+id/modify1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELETE"
+        android:onClick="delete1"
+        android:id="@+id/delete1"
+        />
+    </LinearLayout>
+</RelativeLayout>
+
+</RelativeLayout>

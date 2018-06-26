@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/help_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_light"
+    android:padding="16.0dip">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30.0dip"
+        android:fontFamily="serif"
+        android:textColor="#000"
+        android:text="Use Keywords while entering Faculty names" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:textColor="#000"
+        android:text="Mr." />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt2"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:textColor="#000"
+        android:text="Mrs." />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt3"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="Dr." />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_below="@id/txt4"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="Prof." />
+
+    <TextView
+        android:textColor="#000"
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt5"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="Ms." />
+
+    <TextView
+        android:id="@+id/txt18"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt6"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="HOD" />
+
+
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt6"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="60.0dip"
+        android:fontFamily="serif"
+        android:text="1. If there is Some mistakes in details kindly report to 8602352484 or 9124829319 watsapp no. or HOD room." />
+
+
+
+    <TextView
+        android:id="@+id/txt13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160.0dip"
+        android:fontFamily="serif"
+        android:textColor="#000"
+        android:text="v1.0" />
+
+    <TextView
+        android:id="@+id/txt14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt13"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:textColor="#000"
+        android:text="More Versions to come." />
+
+
+</RelativeLayout>

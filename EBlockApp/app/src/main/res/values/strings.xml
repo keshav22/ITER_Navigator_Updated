@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ITER Navigator</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_room_number_home">Search by Room number</string>
+    <string name="title_activity_faculty_name_home">Search by Faculty name</string>
+    <string name="title_activity_final_room_details">Here are the details</string>
+    <string name="title_activity_imageview_1">Imageview_1</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string-array name="menuitems">
+        <item>Menu Item 0</item>
+        <item>Menu Item 1</item>
+        <item>Menu Item 2</item>
+    </string-array>
+    <string name="title_activity_singin_1">singin_1</string>
+    <string name="title_activity_myaccount">myaccount</string>
+    <string name="title_activity_signup">Signup</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_request">Request</string>
+    <string name="title_activity_newfinalroomdetails">newfinalroomdetails</string>
+    <string name="title_activity_database">Database</string>
+
+
+</resources>
