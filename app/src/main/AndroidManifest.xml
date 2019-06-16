@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="navigator.iter.ourapp.blockapp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mainlogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="ITER Navigator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RoomNumberHome"
+            android:screenOrientation="userPortrait"
+            android:label="@string/title_activity_room_number_home"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".FacultyNameHome"
+            android:screenOrientation="userPortrait"
+            android:label="@string/title_activity_faculty_name_home"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".FinalRoomDetails"
+            android:label="@string/title_activity_final_room_details"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Imageview_1"
+            android:screenOrientation="userPortrait"
+            android:label="@string/title_activity_imageview_1" />
+        <activity
+            android:name=".singin_1"
+            android:screenOrientation="userPortrait"
+            android:label="Sign in"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".myaccount"
+            android:screenOrientation="userPortrait"
+            android:label="My Account"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Signup"
+            android:label="@string/title_activity_signup"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Request"
+            android:label="Requests"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme" />
+
+        <service
+            android:name=".Myservice"
+            android:exported="false" />
+        <receiver
+            android:name=".BootCompleteReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="button_clicked" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name=".newfinalroomdetails"
+            android:label="Room Details"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Database"
+            android:label="@string/title_activity_database"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

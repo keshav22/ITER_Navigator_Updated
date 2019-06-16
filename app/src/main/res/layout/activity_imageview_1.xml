@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="navigator.iter.ourapp.blockapp.Imageview_1"
+    android:background="@drawable/back_image">
+   <WebView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/image1"
+       android:layout_centerVertical="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true" />
+
+</RelativeLayout>

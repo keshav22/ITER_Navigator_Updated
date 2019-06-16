@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="roomArray">
+        <item>100</item>
+        <item>112</item>
+        <item>142</item>
+        <item>164</item>
+        <item>171</item>
+        <item>186</item>
+        <item>198</item>
+        <item>200</item>
+        <item>212</item>
+        <item>242</item>
+        <item>264</item>
+        <item>271</item>
+        <item>286</item>
+        <item>298</item>
+        <item>300</item>
+        <item>312</item>
+        <item>342</item>
+        <item>364</item>
+        <item>371</item>
+        <item>386</item>
+        <item>398</item>
+    </integer-array>
+</resources>

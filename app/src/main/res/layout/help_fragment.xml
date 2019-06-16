@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/help_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:background="#262626"
+    android:padding="16.0dip">
+<ImageView
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:id="@+id/cross"
+    android:src="@drawable/cross"/>
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_below="@+id/cross"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30.0dip"
+        android:textColor="#fff"
+        android:text="Use keywords while entering faculty names" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:text="Mr." />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt2"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="#fff"
+        android:text="Mrs." />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt3"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+
+        android:text="Dr." />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_below="@id/txt4"
+        android:layout_centerHorizontal="true"
+
+        android:text="Prof." />
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt5"
+        android:layout_centerHorizontal="true"
+
+        android:text="Ms." />
+
+    <TextView
+        android:id="@+id/txt18"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt6"
+        android:layout_centerHorizontal="true"
+
+        android:text="HOD" />
+
+
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt6"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="60.0dip"
+        android:gravity="center"
+        android:text="If there is some mistakes in details kindly report to 8602352484 or 9124829319 WhatsApp no. or HOD room." />
+
+    <TextView
+        android:id="@+id/txt13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160.0dip"
+        android:textColor="#fff"
+        android:text="v1.0" />
+
+    <TextView
+        android:id="@+id/txt14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt13"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:text="More Versions to come." />
+
+
+</RelativeLayout>
